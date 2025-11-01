@@ -1,0 +1,85 @@
+body {
+    background-color: #121212; /* cor escura */
+    color: #f5f5f5;            /* texto claro */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  h1 {
+    color: #ffffff; /* branco puro */
+  }
+  p {
+    color: #cccccc; /* cinza claro */
+    max-width: 600px;
+    text-align: center;
+  }
+  
+
+
+:root{
+    --brand: #ffe3f5;
+    --brand-dark: #8a2b67;
+    --muted: #6c6c6c;
+    --radius: 10px;
+    font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  }
+  <style>
+  body {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    margin: 0;
+    height: 100vh;
+  }
+</style>
+
+  
+  body { background: #fcc9f2; color: #222; }
+  
+  /* Topbar */
+  .topbar { font-size: .9rem; }
+  
+  /* Brand / logo */
+  .logo-img { width:56px; height:56px; object-fit:cover; border-radius:8px; }
+  
+  /* Hero */
+  .hero-section { padding: 4.5rem 0; background: linear-gradient(180deg, rgb(236, 202, 222) 0%, rgb(209, 134, 187) 70%); }
+  .hero-section .display-5 { color: var(--brand-dark); font-weight:700; }
+  .hero-section .lead { color: var(--muted); }
+  
+  /* Service cards */
+  .service-card .card-img-top { height: 220px; object-fit:cover; border-top-left-radius: var(--radius); border-top-right-radius: var(--radius); }
+  .card { border-radius: var(--radius); }
+  
+  /* Portfolio images */
+  .img-portfolio { height: 200px; object-fit: cover; border-radius: 8px; width:100%; }
+  
+  /* Testimonials */
+  .testimonial { max-width: 720px; }
+  
+  /* Map placeholder */
+  .map-placeholder { min-height:160px; overflow:hidden; }
+  
+  /* Footer */
+  footer { background: linear-gradient(180deg,#f0bced,#1f1f1f); }
+  
+  /* Buttons */
+  .btn-primary { background: var(--brand); border-color: var(--brand); }
+  .btn-primary:hover { background: var(--brand-dark); border-color: var(--brand-dark); }
+  
+  /* small responsive tweaks */
+  @media (max-width: 991px) {
+    .hero-section { padding: 3rem 0; }
+    .logo-img { width:48px; height:48px; }
+  }
+  /* Fundo global do site */
+body {
+    background-color: #f7cfed; /* troque por qualquer hex (ex: #ffffff, #f0f8ff, #fff0f5) */
+    color: #222; /* ajusta cor do texto para manter contraste */
+  }
+  /* Fundo global do site */
+body {
+    background-color: #ffebfe; /* troque por qualquer hex (ex: #ffffff, #f0f8ff, #fff0f5) */
+    color: #222; /* ajusta cor do texto para manter contraste */
