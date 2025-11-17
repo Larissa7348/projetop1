@@ -1,0 +1,242 @@
+/* ====== ESTILO GERAL ====== */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #ffe0ef; /* 🌸 rosa suave no site inteiro */
+  color: #333;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+ 
+h1, h2, h3, h5 {
+  color: #b91c74; /* rosa escuro */
+  font-weight: 700;
+}
+ 
+p {
+  color: #444;
+}
+ 
+/* Força a cor primária do Bootstrap a seguir o tema */
+.btn-primary, .bg-primary, .text-primary {
+  --bs-primary-rgb: 185, 28, 116; /* #b91c74 */
+  background-color: #b91c74 !important;
+  border-color: #b91c74 !important;
+  color: #fff !important;
+}
+ 
+.btn-primary:hover {
+  background-color: #d63384 !important;
+  border-color: #d63384 !important;
+}
+ 
+.btn-outline-primary {
+  --bs-primary-rgb: 185, 28, 116;
+  border-color: #b91c74;
+  color: #b91c74;
+}
+ 
+.btn-outline-primary:hover {
+  background-color: #b91c74;
+  color: #fff;
+}
+ 
+ 
+/* ====== TOPBAR ====== */
+.topbar {
+  background-color: rgba(255, 255, 255, 0.4);
+  color: #b91c74;
+  font-weight: 500;
+  backdrop-filter: blur(6px);
+}
+ 
+.topbar a {
+  color: #b91c74;
+  transition: color 0.3s;
+}
+ 
+.topbar a:hover {
+  color: #d63384;
+}
+ 
+/* ====== NAVBAR ====== */
+.navbar {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-bottom: 2px solid #f8c3d9;
+  backdrop-filter: blur(10px);
+}
+ 
+.navbar-brand .brand-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #b91c74;
+}
+ 
+.nav-link {
+  color: #444 !important;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+ 
+.nav-link:hover,
+.nav-link.active {
+  color: #d63384 !important;
+}
+ 
+ 
+/* ====== HERO ====== */
+.hero-section {
+  padding: 6rem 0;
+}
+ 
+.hero-section h1 {
+  color: #b91c74;
+  font-weight: 800;
+}
+ 
+.hero-section .lead {
+  color: #5a5a5a;
+}
+ 
+.hero-section .btn-outline-secondary {
+  border-color: #b91c74;
+  color: #b91c74;
+}
+ 
+.hero-section .btn-outline-secondary:hover {
+  background-color: #b91c74;
+  color: #fff;
+}
+ 
+/* ====== SERVIÇOS & BLOG (CARDS) ====== */
+#servicos, #blog {
+  background: none; /* mantém o fundo rosa suave do body */
+}
+ 
+.service-card, #blog .card {
+  border: none;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+ 
+.service-card:hover, #blog .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(185, 28, 116, 0.15); /* Sombra mais rosa no hover */
+}
+ 
+.service-card img, #blog .card img {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom: 3px solid #f9b6d2;
+}
+ 
+.service-card .card-title, #blog .card-title {
+  color: #b91c74;
+}
+ 
+/* ====== PORTFÓLIO (Imagens) ====== */
+#portifolio {
+  background: none;
+}
+ 
+.portifoliob {
+  color: #b91c74;
+}
+ 
+.hover-grow {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+ 
+.hover-grow:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 20px rgba(185, 28, 116, 0.2) !important;
+}
+ 
+ 
+/* ====== DEPOIMENTOS ====== */
+.testimonial {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-left: 5px solid #d63384;
+  border-radius: 10px;
+}
+ 
+.blockquote-footer {
+  color: #b91c74; /* Nome do cliente em destaque */
+}
+ 
+/* ====== CARROSSEL CONTROLES (Setas de Navegação) - FIX PARA VISIBILIDADE ====== */
+/* Corrigindo a cor das setas para contrastar com o fundo claro */
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23b91c74'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+}
+ 
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23b91c74'%3e%3cpath d='M4.646 1.646a.5.5 0 0 0 0 .708L10.293 8l-5.647 5.646a.5.5 0 0 0 .708.708l6-6a.5.5 0 0 0 0-.708l-6-6a.5.5 0 0 0-.708 0z'/%3e%3c/svg%3e");
+}
+ 
+/* Adiciona um background sutil para que a seta não se perca no fundo claro */
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  opacity: 0.8;
+}
+ 
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background: rgba(255, 255, 255, 0.9);
+  opacity: 1;
+}
+ 
+/* ====== FORMULÁRIO ====== */
+form .btn-primary {
+  background-color: #d63384 !important; /* Cor mais forte para o botão de ação principal */
+  border: none;
+}
+ 
+form .btn-primary:hover {
+  background-color: #b91c74 !important;
+}
+ 
+.form-control, .form-select {
+  border-radius: 10px;
+  border: 1px solid #f3a6c6;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+ 
+.form-control:focus, .form-select:focus {
+  border-color: #d63384;
+  box-shadow: 0 0 0 0.2rem rgba(214, 51, 132, 0.25);
+}
+ 
+/* ====== MAPA ====== */
+.map-placeholder img {
+  border-radius: 10px;
+  border: 2px solid #f8c3d9;
+}
+ 
+/* ====== FOOTER ====== */
+footer {
+  background-color: #ffffff; /* Fundo branco do CSS do usuário */
+  color: #444;
+  border-top: 1px solid #f8c3d9;
+}
+ 
+footer h5, footer h6 {
+  color: #b91c74;
+}
+ 
+footer a {
+  color: #b91c74;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+ 
+footer a:hover {
+  color: #d63384;
+}
+ 
