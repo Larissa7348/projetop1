@@ -1,0 +1,198 @@
+endências e cuidados com as unhas.</p>
+        </div>
+ 
+        <div class="row g-4">
+            <div class="col-md-4">
+                <article class="card h-100 shadow-sm border-0">
+                    <img src="img/blog1.jpg" onerror="this.onerror=null;this.src='https://placehold.co/400x250/f8c3d9/b91c74?text=Blog+1';" class="card-img-top" alt="Cuidados pós-aplicação">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Cuidados pós-aplicação</h5>
+                        <p class="card-text text-muted small"><i class="fas fa-calendar-alt me-1"></i> 24 de Junho de 2024</p>
+                        <p class="card-text">Dicas essenciais para manter suas unhas bonitas e saudáveis por mais tempo.</p>
+                        <a href="#" class="btn btn-sm btn-outline-primary stretched-link">Ler mais</a>
+                    </div>
+                </article>
+            </div>
+            <div class="col-md-4">
+                <article class="card h-100 shadow-sm border-0">
+                    <img src="img/blog2.jpg" onerror="this.onerror=null;this.src='https://placehold.co/400x250/f8c3d9/b91c74?text=Blog+2';" class="card-img-top" alt="Tendências 2025">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Tendências 2025</h5>
+                        <p class="card-text text-muted small"><i class="fas fa-calendar-alt me-1"></i> 10 de Maio de 2025</p>
+                        <p class="card-text">As cores, formatos e estilos que vão bombar na próxima temporada.</p>
+                        <a href="#" class="btn btn-sm btn-outline-primary stretched-link">Ler mais</a>
+                    </div>
+                </article>
+            </div>
+            <div class="col-md-4">
+                <article class="card h-100 shadow-sm border-0">
+                    <img src="img/blog3.jpg" onerror="this.onerror=null;this.src='https://placehold.co/400x250/f8c3d9/b91c74?text=Blog+3';" class="card-img-top" alt="Como escolher o formato">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Como escolher o formato</h5>
+                        <p class="card-text text-muted small"><i class="fas fa-calendar-alt me-1"></i> 02 de Abril de 2025</p>
+                        <p class="card-text">Guia rápido para escolher o formato ideal para suas mãos e estilo.</p>
+                        <a href="#" class="btn btn-sm btn-outline-primary stretched-link">Ler mais</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+</section>
+ 
+<!-- Depoimentos -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2>O que as Clientes Dizem </h2>
+        </div>
+ 
+        <div id="testimonials" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#testimonials" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#testimonials" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            </div>
+           
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="d-flex justify-content-center text-center">
+                        <div class="testimonial p-5 shadow-lg bg-white rounded" style="max-width: 600px;">
+                            <i class="fas fa-quote-left text-primary mb-3 display-6"></i>
+                            <p class="lead mb-3">“O trabalho da Lari é impecável! Atendimento muito bom, unhas perfeitas e super duradouras. Recomendo demais!”</p>
+                            <footer class="blockquote-footer">Nathalia</footer>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center text-center">
+                         <div class="testimonial p-5 shadow-lg bg-white rounded" style="max-width: 600px;">
+                             <i class="fas fa-quote-left text-primary mb-3 display-6"></i>
+                            <p class="lead mb-3">“A localização é ótima e o atendimento é super personalizado, sempre com muita atenção aos detalhes. Profissional excelente!”</p>
+                            <footer class="blockquote-footer">Leticia</footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonials" data-bs-slide="prev">
+                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                 <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonials" data-bs-slide="next">
+                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                 <span class="visually-hidden">Próximo</span>
+            </button>
+        </div>
+    </div>
+</section>
+ 
+<!-- Contato / Agendamento -->
+<section id="contato" class="py-5">
+    <div class="container">
+        <div class="row g-5 align-items-start">
+            <div class="col-lg-6">
+                <h3 class="fw-bold">Agende Seu Horário </h3>
+                <p class="lead text-muted">Preencha o formulário para pré-agendamento ou entre em contato direto pelo WhatsApp.</p>
+ 
+                <form id="contactForm" class="needs-validation" novalidate>
+                    <div class="mb-3">
+                        <label class="form-label fw-semibold">Nome Completo</label>
+                        <input type="text" class="form-control" required>
+                        <div class="invalid-feedback">Informe seu nome.</div>
+                    </div>
+ 
+                    <div class="mb-3">
+                        <label class="form-label fw-semibold">Telefone (WhatsApp)</label>
+                        <input type="tel" class="form-control" placeholder="(19) 99999-9999" required>
+                        <div class="invalid-feedback">Informe um telefone válido.</div>
+                    </div>
+ 
+                    <div class="mb-3">
+                        <label class="form-label fw-semibold">Serviço Desejado</label>
+                        <select class="form-select" required>
+                            <option value="">Escolha uma opção...</option>
+                            <option>Unhas em Gel</option>
+                            <option>Fibra de Vidro</option>
+                            <option>Manutenção</option>
+                            <option>Design & Nail Art</option>
+                        </select>
+                        <div class="invalid-feedback">Selecione um serviço.</div>
+                    </div>
+ 
+                    <div class="mb-3">
+                        <label class="form-label fw-semibold">Mensagem (Opcional)</label>
+                        <textarea class="form-control" rows="3" placeholder="Sugira a data e horário de sua preferência."></textarea>
+                    </div>
+ 
+                    <button class="btn btn-primary btn-lg w-100 mt-3" type="submit">Enviar Pedido de Agendamento</button>
+                </form>
+            </div>
+ 
+            <div class="col-lg-6">
+                <h5 class="fw-bold">Onde Nos Encontrar</h5>
+                <p class="text-muted"><i class="fas fa-map-marker-alt me-2"></i> **Araras — São Paulo** (Endereço completo será fornecido após o agendamento)</p>
+               
+                <div class="map-placeholder rounded shadow-sm mb-4">
+                    <img src="Mapa.jpg" onerror="this.onerror=null;this.src='https://placehold.co/600x300/f8c3d9/b91c74?text=Mapa+de+Localiza%C3%A7%C3%A3o';" alt="Localização do estúdio em Araras" class="img-fluid rounded" style="height: 300px; width: 100%; object-fit: cover;">
+                </div>
+ 
+                <h5 class="fw-bold">Horário de Funcionamento</h5>
+                <p class="mb-1"><i class="fas fa-clock me-2"></i> Seg — Sex: 09:00 — 18:00</p>
+                <p class="mb-1"><i class="fas fa-clock me-2"></i> Sáb: 09:00 — 14:00</p>
+                <p class="text-danger small mt-2">Atendimento apenas com hora marcada.</p>
+            </div>
+        </div>
+    </div>
+</section>
+ 
+<!-- Footer -->
+<footer class="py-4 text-black footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 mb-3 mb-md-0">
+                <h5 class="text-primary">Larissa Silva</h5>
+                <p class="small text-muted">Especialista em Nail Design e alongamento de unhas em Araras/SP.</p>
+                <a href="#" class="me-2" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="me-2" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+            </div>
+            <div class="col-md-4 mb-3 mb-md-0">
+                <h6 class="fw-bold">Navegação</h6>
+                <ul class="list-unstyled small">
+                    <li><a class="text-decoration-none" href="#servicos">Serviços</a></li>
+                    <li><a class="text-decoration-none" href="#portifolio">Portfólio</a></li>
+                    <li><a class="text-decoration-none" href="#blog">Blog</a></li>
+                    <li><a class="text-decoration-none" href="#contato">Agendamento</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4 text-md-end">
+                <div class="small text-muted">Desenvolvido com <i class="fas fa-heart text-danger"></i> e Bootstrap.</div>
+                <div class="small mt-1 text-muted">© Larissa Silva - Nail Design <span id="year">2024</span>. Todos os direitos reservados.</div>
+            </div>
+        </div>
+    </div>
+</footer>
+ 
+<!-- Bootstrap bundle + Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Script para validação do formulário e ano do footer -->
+<script>
+    // Validação do Formulário Bootstrap
+    (function () {
+      'use strict'
+      var forms = document.querySelectorAll('.needs-validation')
+      Array.prototype.slice.call(forms)
+        .forEach(function (form) {
+          form.addEventListener('submit', function (event) {
+            if (!form.checkValidity()) {
+              event.preventDefault()
+              event.stopPropagation()
+            }
+            form.classList.add('was-validated')
+          }, false)
+        })
+    })()
+    // Atualizar ano no footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</script>
+<script src="index.js"></script>
+</body>
+</html>
